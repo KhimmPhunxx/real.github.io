@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project WebSite</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Angkor&family=Battambang:wght@400;900&family=Climate+Crisis&family=Gloock&family=Koulen&family=Lora&family=Playfair+Display:wght@500&family=Roboto+Slab:wght@600&family=Suwannaphum:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/Style.CSS">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="jquery-3.2.1.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid header-web">
+        <div class="container header">
+            <div class="row">
+                <div class="col-xl-12 ">
+                    <div class="slide">
+                       <img src="img/slider1.gif" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid header-menu">
+        <div class="container menu-bar">
+            <div class="row"> 
+                <div class="col-xl-12 menu">
+                    <ul>
+                        <li class="btn-menu"><a href="#"><ion-icon name="menu"></ion-icon></a></li>
+                        <li class="a">
+                            <a href=""> <ion-icon name="home"></ion-icon></a>
+                        </li>
+                        <li class="a"><a href="#">ទូរស័ព្ទដៃ</a>
+                            <div class="sub-menu">
+                                <ul>
+                                    <li><a href="">Apple</a></li>
+                                    <li><a href="">Samsung</a></li>
+                                    <li><a href="">OPPO</a></li>
+                                    <li><a href="">VIVO</a></li>
+                                    <li><a href="">LG</a></li>
+                                    <li><a href="">RealMe</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="a"><a href="">កុំព្យូទ័រ</a>
+                            <div class="sub-menu">
+                                <ul>
+                                    <li><a href="">Asus</a></li>
+                                    <li><a href="">Apple</a></li>
+                                    <li><a href="">Lenovo</a></li>
+                                    <li><a href="">Msi</a></li>
+                                    <li><a href="">dell</a></li>
+                                    <li><a href="">Gygabyte</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="a"><a href="">គ្រឿងបង្គុំកុំព្យូទ័រ</a>
+                            <div class="sub-menu">
+                                <ul>
+                                    <li><a href="">CPU</a></li>
+                                    <li><a href="">RAM</a></li>
+                                    <li><a href="">SSD, hard disk</a></li>
+                                    <li><a href="">Spech</a></li>
+                                    <li><a href="">adobter</a></li>
+                                    <li><a href="">USB</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="a"><a href="">ម៉ូនីទ័រ</a>
+                            <div class="sub-menu">
+                                <ul>
+                                    <li><a href="">Asus</a></li>
+                                    <li><a href="">Apple</a></li>
+                                    <li><a href="">Lenovo</a></li>
+                                    <li><a href="">Msi</a></li>
+                                    <li><a href="">dell</a></li>
+                                    <li><a href="">Gygabyte</a></li>
+                                    <li><a href="">noc</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="a"><a href="">Mouse</a>
+                            <div class="sub-menu">
+                                <ul>
+                                    <li><a href="">Asus</a></li>
+                                    <li><a href="">Apple</a></li>
+                                    <li><a href="">Lenovo</a></li>
+                                    <li><a href="">Msi</a></li>
+                                    <li><a href="">dell</a></li>
+                                    <li><a href="">Gygabyte</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="a"><a href="">Keyboard</a>
+                            <div class="sub-menu">
+                                <ul>
+                                    <li><a href="">Asus</a></li>
+                                    <li><a href="">Apple</a></li>
+                                    <li><a href="">Lenovo</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="btn-search"><a href=""><ion-icon name="search"></ion-icon></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="left-menu">
+       <ul>
+        <li>
+            <a href=""><ion-icon name="home"></ion-icon></a>
+        </li>
+         <li>
+            <a href="">ទូរស័ព្ទដៃ</a>
+         </li>
+         <li>
+            <a href="">កុំព្យូទ័រ</a>
+         </li>
+         <li>
+            <a href="">គ្រឿងបង្គុំកុំព្យូទ័រ</a>
+         </li>
+         <li>
+            <a href="">ម៉ូនីទ័រ</a>
+         </li>
+         <li>
+            <a href="">Mouse</a>
+         </li>
+         <li>
+            <a href="">Keyboard</a>
+         </li>
+       </ul>
+    </div>
+   
+</body>
+<script>
+    $(document).ready(function(){
+
+        //add Sub menu
+        $('.menu').on('mouseover','ul li',function(){
+            var eThis = $(this);
+            eThis.find('.sub-menu').slideDown(10);
+        });
+        $('.menu').on('mouseleave','ul li',function(){
+            var eThis = $(this);
+            eThis.find('.sub-menu').slideUp(10);
+        });
+        //add btn menu bar
+        $('.btn-menu').click(function(){
+            var pop = '<div class="popup"></div>';
+            $('body').append(pop);
+            $('.left-menu').css({'left':"0px"})
+        })
+        //close sub menu
+        $('body').on('click','.popup',function(){
+           $(this).remove();
+           $('.left-menu').css({'left':"-292px"})
+        });
+
+    });
+</script>
+</html>
